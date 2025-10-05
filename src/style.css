@@ -1,8 +1,16 @@
-:root  {
-    --bs-primary: #3782c8;
-}
-
-body {
-   
-}
-
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+  }
+  header {
+    position: relative;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  header .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0,0,0,0.5);
+  }
